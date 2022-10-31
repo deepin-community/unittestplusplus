@@ -1,0 +1,170 @@
+unittest++ (2.0.0-3) unstable; urgency=medium
+
+  * Update watch file
+  * Bump std-version to 4.2.1.1, no changes required
+  * Move VCS fields to salsa.d.o
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 04 Sep 2018 12:07:26 +0200
+
+unittest++ (2.0.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 12 Jun 2017 11:30:32 +0200
+
+unittest++ (2.0.0-1~exp2) experimental; urgency=medium
+
+  * Fix copyright issues, thanks Chris Lamb!
+    (Closes: #860343)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 16 Apr 2017 07:52:30 +0200
+
+unittest++ (2.0.0-1~exp1) experimental; urgency=medium
+
+  [ Jari Aalto ]
+  * Convert to format-3.0 (Closes: #664372).
+  * Bump std-version to 3.9.8.
+
+  [ Gianfranco Costamagna ]
+  * Move to collab-maint
+  * Build in clean chroot (Closes: #789463)
+  * New upstream snapshot. (Closes: #784665)
+  * Adopt the package.
+  * Switch to dh
+  * Switch to cmake
+  * Use compat level 10
+  * d/copyright convert to dep5 format.
+  * d/watch: fix url location.
+  * d/patches/10_pkgconfig.patch: remove, addressed upstream.
+  * d/patches/20_test_runner_bad_virtual_method_arg.patch
+    remove, addressed upstream.
+  * d/patches/version.patch: hardcode upstream version.
+  * d/control:
+    - convert to multiarch
+    - add libunittest++2 package
+  * d/libunittest++-dev.docs remove the html reference, dropped
+    upstream.
+ 
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 14 Apr 2017 10:04:30 +0200
+
+unittest++ (1.4.0-3.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS with GCC6 by using -std=gnu++98 (Closes: #812270).
+  * Add explicit debian/source/format.
+
+ -- Andrey Rahmatullin <wrar@debian.org>  Sat, 03 Dec 2016 20:49:24 +0500
+
+unittest++ (1.4.0-3) unstable; urgency=low
+
+  * Add missing 20_test_runner_bad_virtual_method_arg.dpatch to patches/00list
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Sat, 11 Jul 2009 15:18:30 +0200
+
+unittest++ (1.4.0-2) unstable; urgency=low
+
+  * Fix FTBFS on non-x86 arches (Closes: #525709)
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Tue, 09 Jun 2009 02:24:58 +0200
+
+unittest++ (1.4.0-1) unstable; urgency=low
+
+  * New upstream version
+  * Drop 20_gcc-4.3.dpatch, fixed upstream
+  * Remove empty libunittest++0 transitional package (Closes: #489122)
+  * Bump standards-version to 3.8.1
+  * Add get-orig-source target
+  * Repackage upstream tarball using get-orig-source target	
+  * Add libunittest++-dev.docs
+  * Fix debhelper-but-no-misc-depends
+  * Fix dev-package-should-be-section-libdevel
+  * Fix dpatch-missing-description
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Sat, 25 Apr 2009 01:20:17 +0200
+
+unittest++ (1.3.0-4) unstable; urgency=low
+
+  * Apply Cyril Brulebois patch to fix FTBFS with GCC 4.3 (Closes: #455316)
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Thu, 13 Mar 2008 13:53:11 +0000
+
+unittest++ (1.3.0-3) unstable; urgency=low
+
+  * add watch file
+  * fix install rules
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Mon, 29 Oct 2007 01:39:20 +0000
+
+unittest++ (1.3.0-2) unstable; urgency=low
+
+  * fix libunittest++0 override and section missmatch
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Sun, 28 Oct 2007 13:43:42 +0000
+
+unittest++ (1.3.0-1) unstable; urgency=low
+
+  * 1.3 release (upstream sync)
+  * remove autotools support, use upstream provided makefile instead
+  * empty libunittest++0  transition package
+  * rename library to libUnitTest++.a, provide simlink for backward compatibility
+  * switch to dpatch
+  * new 10_pkgconfig.dpatch with updated version and paths
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed, 26 Sep 2007 12:18:24 +0000
+
+unittest++ (1.2.1-1) unstable; urgency=low
+
+  * upstream patch for autotools and packaging fixes
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed,  6 Dec 2006 04:08:15 +0100
+
+unittest++ (1.2.0-5) unstable; urgency=low
+
+  * update debhelper version (closes: #397810)
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Thu, 30 Nov 2006 22:48:00 +0100
+
+unittest++ (1.2.0-4) unstable; urgency=low
+
+  * bump closes
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Thu, 30 Nov 2006 15:13:51 +0100
+
+unittest++ (1.2.0-3) unstable; urgency=low
+
+  * packaging fix
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed, 22 Nov 2006 18:03:28 +0100
+
+unittest++ (1.2.0-2) unstable; urgency=low
+
+  * copyright fixes
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed, 22 Nov 2006 15:42:53 +0100
+
+unittest++ (1.2.0-1) unstable; urgency=low
+
+  * 1.2 release (upstream sync)
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Mon, 30 Oct 2006 17:13:00 +0200
+	
+unittest++ (1.1.1-1) unstable; urgency=low
+
+  * g++ depends
+  
+  * upstream sync
+
+ -- Loic Dachary (OuoU) <loic@debian.org>  Mon, 30 Oct 2006 11:31:52 +0100
+
+unittest++ (1.1.0-1) unstable; urgency=low
+
+  * 1.1 release
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed, 12 May 2006 16:08:00 +0200
+
+unittest++ (1.0.0-1) unstable; urgency=low
+
+  * initial package
+
+ -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed, 29 Mar 2006 15:58:02 +0200
+

@@ -1,0 +1,34 @@
+Source: unittest++
+Section: devel
+Priority: optional
+Homepage: https://github.com/unittest-cpp/unittest-cpp
+Maintainer: Johan Euphrosine (proppy) <proppy@aminche.com>
+Uploaders: Loic Dachary (OuoU) <loic@debian.org>,
+           Gianfranco Costamagna <locutusofborg@debian.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.2.1.1
+Vcs-Git: https://salsa.debian.org/debian/unittestplusplus.git
+Vcs-Browser: https://salsa.debian.org/debian/unittestplusplus
+
+Package: libunittest++-dev
+Section: libdevel
+Architecture: any
+Depends: libunittest++2 (=${binary:Version}), ${misc:Depends}
+Description: unit testing framework for c++, static library and headers
+ unittest++ is a unit testing framework designed for simplicity
+ and portability. Features include no explicit test registration,
+ good crash handling, fixtures, rich condition-checking functionality,
+ minimal footprint for embedded environments.
+
+Package: libunittest++2
+Section: libs
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: unit testing framework for c++, runtime library
+ unittest++ is a unit testing framework designed for simplicity
+ and portability. Features include no explicit test registration,
+ good crash handling, fixtures, rich condition-checking functionality,
+ minimal footprint for embedded environments.
+ .
+ Provides the Unittest library

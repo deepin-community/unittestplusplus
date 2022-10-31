@@ -1,0 +1,43 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: unittest-cpp
+Source: https://github.com/unittest-cpp/unittest-cpp
+
+Files: *
+Copyright: 2006 Noel Llopis <llopis@convexhull.com>
+           2006 Charles Nicholson <cn@cnicholson.net>
+License: MIT/X11
+
+Files: m4/ax_cxx_compile_stdcxx.m4
+       m4/ax_cxx_compile_stdcxx_11.m4
+Copyright: 2008 Benjamin Kosnik <bkoz@redhat.com>
+           2012 Zack Weinberg <zackw@panix.com>
+           2013 Roy Stogner <roystgnr@ices.utexas.edu>
+           2014, 2015 Google Inc.; contributed by Alexey Sokolov <sokolov@google.com>
+           2015 Paul Norman <penorman@mac.com>
+           2015 Moritz Klammler <moritz@klammler.eu>
+License: permissive
+
+Files: debian/*
+Copyright: 2006-2009 Johan Euphrosine (proppy) <proppy@aminche.com>
+           2015-2017 Gianfranco Costamagna <locutusofborg@debian.org>
+License: MIT/X11
+
+License: permissive
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved. This file is offered as-is, without any
+ warranty.
+
+License: MIT/X11
+ This package is free software. You may copy, distribute, and modify it under
+ the terms of the License contained in the file COPYING distributed
+ with this package. This license is the same as the MIT/X Consortium
+ license.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
