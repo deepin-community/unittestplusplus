@@ -1,3 +1,9 @@
+unittest++ (2.0.0-3deepin1) unstable; urgency=medium
+
+  * Normalize ver2 (XdeepinY).
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 27 Aug 2024 16:06:28 +0800
+
 unittest++ (2.0.0-3deepin) unstable; urgency=medium
 
   * update
